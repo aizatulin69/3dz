@@ -26,7 +26,10 @@ def get_numbers_ticket(min_v, max_v, quantity):
 
                 time.sleep(0.001 * (random_num % 100)) 
                 #створюємо невеличку затримку випадкової довжини в виконанні коду, щоб наступне випадкове значення відрізнялось від попереднього
+
+    lottery_numbers.sort()
     print(lottery_numbers)
     return lottery_numbers
     
 get_numbers_ticket(10, 100, 90)
+
